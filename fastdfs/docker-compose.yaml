@@ -1,0 +1,15 @@
+version: '3.0'
+
+services:
+    fastdfs:
+        build: .
+        image: registry-vpc.cn-hangzhou.aliyuncs.com/vanje_one/vanje-base:fastdfs5.11
+        restart: always
+        container_name: fastdfs
+        environment:
+            - WEB_PORT=8880
+            - IP=172.16.223.54
+        volumes:
+            - /var/fastdfs/data:/var/local/fdfs
+        privileged: true
+        network_mode: "host"
