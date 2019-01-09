@@ -3,7 +3,7 @@ version: '3.0'
 services:
     fastdfs:
         build: .
-        image: registry-vpc.cn-hangzhou.aliyuncs.com/vanje_one/vanje-base:fastdfs5.11
+        image: huahua5404/fastdfs:5.11 
         restart: always
         container_name: fastdfs
         environment:
