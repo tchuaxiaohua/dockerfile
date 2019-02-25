@@ -1,4 +1,4 @@
-#Dockerfile
+# Dockerfile
 定义fastdfs镜像信息
 
 ###docker-compose
