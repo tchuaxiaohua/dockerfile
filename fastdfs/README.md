@@ -6,7 +6,7 @@
 ### 启动方式
 1、本地构建
 
-若是选择本地构建镜像，直接把dokcerfile文件下载值本地运行以下命令
+若是选择本地构建镜像，直接把dokcerfile文件下载至本地运行以下命令
 
 docker build -t tchua/fastdfs:5.11 .
 
